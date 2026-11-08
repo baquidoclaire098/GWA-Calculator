@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GWA Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="main-header">
+    <div class="header-content">
+      <h1>GWA Calculator</h1>
+      <p>Calculate and monitor your General Weighted Average</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="form-section">
+      <div class="section-heading">
+        <h2>Add Subject</h2>
+      </div>
+      <div class="subject-form-container"></div>
+    </section>
+
+    <section class="list-section">
+      <div class="section-heading">
+        <h2>Subject List</h2>
+      </div>
+      <div class="subject-list-container"></div>
+    </section>
+
+    <section class="summary-section">
+      <div class="section-heading">
+        <h2>GWA Summary</h2>
+      </div>
+      <div class="summary-container"></div>
+    </section>
+
+  </main>
+
+  
+<!-- Delete Confirmation Modal -->
+<div class="modal-overlay" id="delete-modal" hidden>
+  <div class="delete-modal">
+
+    <h2>Delete Subject?</h2>
+
+    <p>
+      Are you sure you want to delete
+      <strong id="delete-subject-name"></strong>?
+      This action cannot be undone.
+    </p>
+
+    <div class="modal-actions">
+      <button type="button" id="cancel-delete">
+        Cancel
+      </button>
+
+      <button type="button" id="confirm-delete">  
+        Delete
+      </button>
+    </div>
+
+  </div>
+</div>
+
+
+  <footer>
+    <p>GWA Calculator <span>|</span> ITP 1 - Web Systems and Technologies 2 | Prelim Project</p>
+  </footer>
+
+  <script type="module" src="js/controller.js"></script>
+
+</body>
+</html>
