@@ -1,6 +1,3 @@
-
-View.js
-100%
 export default class View {
   _data;
   _parentElement;
@@ -23,4 +20,3 @@ export default class View {
     this._parentElement.innerHTML = '';
   }
 }
-Displaying View.js.

@@ -1,6 +1,4 @@
 
-model.js
-100%
 const STORAGE_KEY = 'gwa-calculator-data';
 
 // Main application state

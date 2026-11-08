@@ -1,6 +1,4 @@
 
-SummaryView.js
-100%
 import View from './View.js';
 
 class SummaryView extends View {
@@ -35,4 +33,3 @@ class SummaryView extends View {
 export default new SummaryView(
   document.querySelector('.summary-container')
 );
-Displaying SummaryView.js.
