@@ -15,6 +15,9 @@ class SubjectListView extends View {
     return `
       <div class="subject-list">
        
+         
+
+
         <table>
           <thead>
             <tr>
